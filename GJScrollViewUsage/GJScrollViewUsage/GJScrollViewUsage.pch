@@ -1,0 +1,47 @@
+//
+//  GJScrollViewUsage.pch
+//  GJScrollViewUsage
+//
+//  Created by zgjun on 15/9/17.
+//  Copyright (c) 2015年 chexun. All rights reserved.
+//
+
+#ifndef GJScrollViewUsage_GJScrollViewUsage_pch
+#define GJScrollViewUsage_GJScrollViewUsage_pch
+
+//conference head files
+#import "UIView+Extension.h"
+
+
+//size
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//color
+//0.rand color
+#define RandColor [UIColor colorWithRed:(arc4random_uniform(255) / 255.0) green:(arc4random_uniform(255) / 255.0) blue:(arc4random_uniform(255) / 255.0) alpha:1.0]
+//1.black
+#define MainBlackColor [UIColor colorWithRed:(40.0 / 255.0) green:(40.0 / 255.0) blue:(40.0 / 255.0) alpha:1.0]
+
+//2.font gray
+#define MainFontGrayColor [UIColor colorWithRed:(155.0 / 255.0) green:(154.0 / 255.0) blue:(150.0 / 255.0) alpha:1.0]
+
+//3.line gray
+#define MainLineGrayColor [UIColor colorWithRed:(203.0 / 255.0) green:(205.0 / 255.0) blue:(208.0 / 255.0) alpha:1.0]
+
+//4.golden color
+#define MainGoldenColor [UIColor colorWithRed:(230.0 / 255.0) green:(185.0 / 255.0) blue:(44.0 / 255.0) alpha:1.0]
+
+//5.white
+#define MainWhiteColor [UIColor whiteColor]
+
+//6.main gray background color
+#define MainBackGroundColor [UIColor colorWithRed:(232.0 / 255.0) green:(233.0 / 255.0) blue:(235.0 / 255.0) alpha:1.0]
+
+//7.font red color
+#define MainFontRedColor [UIColor colorWithRed:(229.0 / 255.0) green:(89.0 / 255.0) blue:(84.0 / 255.0) alpha:1.0]
+
+//8.tabbar background color
+#define TabBarViewBackGroundColor [UIColor colorWithRed:(31.0 / 255.0) green:(32.0 / 255.0) blue:(34.0 / 255.0) alpha:1.0]
+
+#endif

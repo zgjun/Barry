@@ -1,25 +1,106 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Index View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--新闻-->
+        <scene sceneID="mfp-UM-IE9">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="IndexViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="news" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MnE-l6-1kl" customClass="NewsViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="72e-jW-eXA"/>
+                        <viewControllerLayoutGuide type="bottom" id="uwq-Jk-xTG"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="TgS-PF-R6f">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.63234257520000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="新闻" id="5aW-ow-eOR"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r6B-cU-6IK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="151" y="-522"/>
+        </scene>
+        <!--娱乐-->
+        <scene sceneID="zOJ-lk-9V2">
+            <objects>
+                <viewController storyboardIdentifier="entertainment" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Iyj-r2-BG0" customClass="EntertainmentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y23-bR-f44"/>
+                        <viewControllerLayoutGuide type="bottom" id="wXy-fL-Z2u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oxd-LM-cao">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.85602072009999997" green="0.50419905799999998" blue="0.093786397320000006" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="娱乐" id="mIj-4a-qQf"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pds-0c-7aq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136" y="17"/>
+        </scene>
+        <!--测试-->
+        <scene sceneID="ta2-Gu-CEa">
+            <objects>
+                <viewController storyboardIdentifier="test" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MfM-9Z-QqG" customClass="TestEffectViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K2Q-ld-2GW"/>
+                        <viewControllerLayoutGuide type="bottom" id="KXB-56-UwG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lLl-N6-thj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="测试" id="8kJ-Jw-ji4">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="OiX-mE-wQw"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hy-2r-xQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="539"/>
+        </scene>
+        <!--生活-->
+        <scene sceneID="EAC-9l-3dZ">
+            <objects>
+                <viewController storyboardIdentifier="life" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TnF-lk-G1S" customClass="LifeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="41R-LR-b4q"/>
+                        <viewControllerLayoutGuide type="bottom" id="l9z-jb-Wdj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uQE-UZ-6Xj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.95225872300000003" blue="0.10473201140000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="生活" id="G28-TL-gh8"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yx8-sY-IhU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="151" y="-1083"/>
+        </scene>
+        <!--Base Tab Bar Controller-->
+        <scene sceneID="Fbg-Bk-yLn">
+            <objects>
+                <tabBarController id="npD-ka-Avk" customClass="BaseTabBarController" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Bvo-Fw-SfV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JhV-hs-HW6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-465" y="46"/>
         </scene>
     </scenes>
 </document>

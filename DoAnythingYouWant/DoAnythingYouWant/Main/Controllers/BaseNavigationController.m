@@ -14,9 +14,23 @@
 
 @implementation BaseNavigationController
 
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        
+    }
+    
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"生活" image:[UIImage imageNamed:@"life"] selectedImage:nil];
+    if ([self.title isEqualToString: @"生活"]) {
+        self.tabBarItem.image = [UIImage imageNamed:@"life"];
+        self.tabBarItem.title = @"生活";
+    }
 }
 
 - (void)didReceiveMemoryWarning {

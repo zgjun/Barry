@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LCPanNavigationController.h"
 
-@interface BaseNavigationController : UINavigationController
+@interface BaseNavigationController : LCPanNavigationController
 
 @end

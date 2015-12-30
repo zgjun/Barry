@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseDrawerController.h"
+#import "BaseTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    BaseTabBarController *tabbarVc = [[BaseTabBarController alloc]initWithNibName:@"main" bundle:nil];
+    
+    BaseDrawerController *baseDrawerVc = [[BaseDrawerController alloc]initWithMainController:tabbarVc];
+    self.window.rootViewController = baseDrawerVc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

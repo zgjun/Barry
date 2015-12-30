@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>12AD26EA-0239-48DE-9180-55D84E5FE4F3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BuyCarDictionary</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>84139b25-4c2e-4781-a31a-8b7c37efc409++6357</key>
+		<string>http://svn.corp.chexun.com/svn/ios/MaiCheTong-V4.1.1</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BuyCarDictionary.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>84139b25-4c2e-4781-a31a-8b7c37efc409++6357</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>84139b25-4c2e-4781-a31a-8b7c37efc409++6357</key>
+		<string>http://svn.corp.chexun.com/svn/ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.corp.chexun.com/svn/ios/MaiCheTong-V4.1.1/BuyCarDictionary.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>84139b25-4c2e-4781-a31a-8b7c37efc409++6357</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>84139b25-4c2e-4781-a31a-8b7c37efc409++6357</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MaiCheTong-V4.1.1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -91,8 +91,8 @@ test ........  framework
   #  Not including the public_header_files will make all headers public.
   #
   #  s.source_files = 'LYBluetoothSDK/Classes/**/*'
-  s.source_files  = "Barry","Barry/*"
-  #s.exclude_files = "Classes/Exclude"
+  s.source_files  = 'Barry/**/*'
+  #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 

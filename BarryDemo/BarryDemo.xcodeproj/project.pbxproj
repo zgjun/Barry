@@ -13,6 +13,7 @@
 		27F20E4E212AB884004C72C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F20E4D212AB884004C72C8 /* Assets.xcassets */; };
 		27F20E51212AB884004C72C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F20E4F212AB884004C72C8 /* LaunchScreen.storyboard */; };
 		27F20E54212AB884004C72C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F20E53212AB884004C72C8 /* main.m */; };
+		27F20E5D212AB896004C72C8 /* ZS_PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F20E5B212AB896004C72C8 /* ZS_PageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		27F20E50212AB884004C72C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27F20E52212AB884004C72C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27F20E53212AB884004C72C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27F20E5B212AB896004C72C8 /* ZS_PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZS_PageControl.m; sourceTree = "<group>"; };
+		27F20E5C212AB896004C72C8 /* ZS_PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZS_PageControl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				27F20E45212AB884004C72C8 /* AppDelegate.m */,
 				27F20E47212AB884004C72C8 /* ViewController.h */,
 				27F20E48212AB884004C72C8 /* ViewController.m */,
+				27F20E5A212AB896004C72C8 /* Barry */,
 				27F20E4A212AB884004C72C8 /* Main.storyboard */,
 				27F20E4D212AB884004C72C8 /* Assets.xcassets */,
 				27F20E4F212AB884004C72C8 /* LaunchScreen.storyboard */,
@@ -69,6 +73,16 @@
 				27F20E53212AB884004C72C8 /* main.m */,
 			);
 			path = BarryDemo;
+			sourceTree = "<group>";
+		};
+		27F20E5A212AB896004C72C8 /* Barry */ = {
+			isa = PBXGroup;
+			children = (
+				27F20E5B212AB896004C72C8 /* ZS_PageControl.m */,
+				27F20E5C212AB896004C72C8 /* ZS_PageControl.h */,
+			);
+			name = Barry;
+			path = ../../Barry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27F20E49212AB884004C72C8 /* ViewController.m in Sources */,
+				27F20E5D212AB896004C72C8 /* ZS_PageControl.m in Sources */,
 				27F20E54212AB884004C72C8 /* main.m in Sources */,
 				27F20E46212AB884004C72C8 /* AppDelegate.m in Sources */,
 			);
